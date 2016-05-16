@@ -1,0 +1,13 @@
+@mixin reset {
+	margin:0;padding:0;
+	list-style-type:none;
+	text-decoration:none;
+	}
+
+@mixin forget { //used for buttons
+	background-color: white;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    border: 0;
+	}
