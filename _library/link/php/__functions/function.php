@@ -190,9 +190,9 @@ function section_nav_section(){
 function section_testimonial(){
 	global $array_testimonial;
 	$array_bg_testimonial[] = array(
-		'bg_2606.jpg',
-		'bg_2607.jpg',
-		'bg_2618.jpg',
+		'bg_2606.png',
+		'bg_2607.png',
+		'bg_2618.png',
 		);
 	/* ——————————————————————————————————
 	DESCRIPTION: This testimonial section randomizes the testimonial by pulling from a data source from $array_testimonial
