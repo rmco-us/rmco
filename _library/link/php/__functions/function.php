@@ -415,8 +415,8 @@ function group_top_motorcycle($_section_primary_title){
 		$output = $output . '</div>';
 		$output = $output . '<div class="container_video_full_width">';
 			$output = $output . '<div class="section_previous">';
-				$output = $output . '<a id="prevLink" href="motorcycle.php?id='.$previous.'" class="previous">'; 
 				if($previous >= 0){
+					$output = $output . '<a id="prevLink" href="motorcycle.php?id='.$previous.'" class="previous">'; 
 					foreach($array_motorcycles as $id => $motorcycle){
 						if($id == $previous){
 							$count = 0;
@@ -431,7 +431,7 @@ function group_top_motorcycle($_section_primary_title){
 						$output = $output . '<div class="left"></div>';
 					$output = $output . '</div>';
 				$output = $output . '</a>';
-					} //
+					} $output = $output . '<a id="prevLink" href="motorcycles.php">'; //
 			$output = $output . '</div>';
 			$output = $output . '<div class="section_video js-video [vimeo, widescreen]">';
 				foreach($array_motorcycles as $id => $motorcycle){
@@ -441,8 +441,8 @@ function group_top_motorcycle($_section_primary_title){
 					}
 			$output = $output . '</div>';
 			$output = $output . '<div class="section_next">';
-				$output = $output . '<a id="nextLink" href="motorcycle.php?id='.$next.'" class="next">';
 				if($next < $amount){
+					$output = $output . '<a id="nextLink" href="motorcycle.php?id='.$next.'" class="next">';
 					foreach($array_motorcycles as $id => $motorcycle){
 						if($id == $next){ //this checks if the current id is equal to the next number. 
 							$count = 0; //this sets the count to 0 for counting the photos
@@ -454,7 +454,9 @@ function group_top_motorcycle($_section_primary_title){
 								}
 							}
 						}
-					}else{$output = $output . '<div>';}
+					}else{
+						$output = $output . '<a id="nextLink" href="motorcycles.php">'; //
+						}
 						$output = $output . '<div class="right"></div>';
 					$output = $output . '</div>'; 
 				$output = $output . '</a>'; //end of a.next
