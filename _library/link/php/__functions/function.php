@@ -174,6 +174,7 @@ function section_nav_section(){
 
         $output = $output . '<div class="nav__toggle-btn"></div>';
         $output = $output . '<div class="section_nav_bottom">';
+	        $output = $output . '<p style="color:white;">Need to contact us?: <a href="mailto:info@rmco.us" style="text-decoration:none;color:white;">info@rmco.us</a></p>';
 	        $output = $output . '<p>282 Wilkes Ave, Bremerton, WA 98312</p>';
 			$output = $output . '<p>Hours of Operations: 9:00AM &ndash; 6:00PM</p>';
 		$output = $output . '</div>';
@@ -414,7 +415,7 @@ function group_top_motorcycle($_section_primary_title){
 		$output = $output . '</div>';
 		$output = $output . '<div class="container_video_full_width">';
 			$output = $output . '<div class="section_previous">';
-				$output = $output . '<a href="motorcycle.php?id='.$previous.'" class="previous">'; 
+				$output = $output . '<a id="prevLink" href="motorcycle.php?id='.$previous.'" class="previous">'; 
 				if($previous >= 0){
 					foreach($array_motorcycles as $id => $motorcycle){
 						if($id == $previous){
@@ -440,7 +441,7 @@ function group_top_motorcycle($_section_primary_title){
 					}
 			$output = $output . '</div>';
 			$output = $output . '<div class="section_next">';
-				$output = $output . '<a href="motorcycle.php?id='.$next.'" class="next">';
+				$output = $output . '<a id="nextLink" href="motorcycle.php?id='.$next.'" class="next">';
 				if($next < $amount){
 					foreach($array_motorcycles as $id => $motorcycle){
 						if($id == $next){ //this checks if the current id is equal to the next number. 
