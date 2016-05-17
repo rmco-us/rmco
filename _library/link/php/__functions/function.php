@@ -455,6 +455,7 @@ function group_top_motorcycle($_section_primary_title){
 							}
 						}
 					}else{
+						$output = $output . '<div>';
 						$output = $output . '<a id="nextLink" href="motorcycles.php">'; //
 						}
 						$output = $output . '<div class="right"></div>';
