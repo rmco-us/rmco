@@ -338,6 +338,7 @@ p {
 	}
 
 div.title_primary {
+	@include vp('transition','.5s');
 	&:before{
 		text-align:center;
 		}
@@ -358,6 +359,7 @@ div.title_primary {
 		}
 
 	.container {
+		@include vp('transition','.5s');
 		overflow:auto;
 		display:table;
 		padding:0 20px;

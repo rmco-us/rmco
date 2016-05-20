@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_library\/img\/asset\/bg_2606.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 945586,
+		"inputAbbreviatedPath": "\/_library\/img\/asset\/bg_2606.png",
+		"outputAbbreviatedPath": "\/_library\/img\/asset\/bg_2606.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_library\/img\/asset\/bg_2607.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -24,6 +35,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_library\/img\/asset\/bg_2607.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 890871,
+		"inputAbbreviatedPath": "\/_library\/img\/asset\/bg_2607.png",
+		"outputAbbreviatedPath": "\/_library\/img\/asset\/bg_2607.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_library\/img\/asset\/bg_2618.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -31,6 +53,17 @@
 		"initialSize": 5.59474e+06,
 		"inputAbbreviatedPath": "\/_library\/img\/asset\/bg_2618.jpg",
 		"outputAbbreviatedPath": "\/_library\/img\/asset\/bg_2618.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_library\/img\/asset\/bg_2618.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 671266,
+		"inputAbbreviatedPath": "\/_library\/img\/asset\/bg_2618.png",
+		"outputAbbreviatedPath": "\/_library\/img\/asset\/bg_2618.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -185,6 +218,17 @@
 		"initialSize": 6503,
 		"inputAbbreviatedPath": "\/_library\/img\/asset\/logo_full.png",
 		"outputAbbreviatedPath": "\/_library\/img\/asset\/logo_full.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_library\/img\/asset\/logo_store.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2992,
+		"inputAbbreviatedPath": "\/_library\/img\/asset\/logo_store.png",
+		"outputAbbreviatedPath": "\/_library\/img\/asset\/logo_store.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

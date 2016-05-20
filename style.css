@@ -260,6 +260,11 @@ p {
       display: inline-block; } }
 
 div.title_primary {
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
   -webkit-box-shadow: 0 0 3px #000;
   -moz-box-shadow: 0 0 3px #000;
   -ms-box-shadow: 0 0 3px #000;
@@ -282,6 +287,11 @@ div.title_primary {
     div.title_primary {
       padding: 15px; } }
   div.title_primary .container {
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
     overflow: auto;
     display: table;
     padding: 0 20px;
