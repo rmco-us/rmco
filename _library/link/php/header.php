@@ -3,7 +3,7 @@
 <head>
 	<?
 	$head_title = "Rottweiler Motorcycle Company";
-	$head_description = "Voted Best Motorcycle Shop in Western WA. All makes, models and years. You deserve the best. Nobody's better at getting you on the road.";
+	$head_description = "Rottweiler Motorcycle Company (RMCo) Voted Best Motorcycle Shop in Western WA. All makes, models and years. You deserve the best. Nobody's better at getting you on the road.";
 	?>
 	<title><?echo $head_title;?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">

@@ -643,12 +643,10 @@ div.title_secondary {
       .img_grid_motorcycles ul li.parent {
         height: 300px; }
         .img_grid_motorcycles ul li.parent:hover:before {
-          margin-top: 50px; }
+          margin-top: 80px; }
         .img_grid_motorcycles ul li.parent:hover div.container {
           height: initial;
           opacity: 1; }
-          .img_grid_motorcycles ul li.parent:hover div.container p.title_year {
-            color: #9e8f76; }
         .img_grid_motorcycles ul li.parent:hover div.cover {
           -webkit-filter: blur(1.0px);
           -moz-filter: blur(1.0px);
@@ -674,12 +672,16 @@ div.title_secondary {
       vertical-align: middle;
       margin-right: -0.25em;
       /* Adjusts for spacing */
-      margin-top: 30px;
+      margin-top: 63px;
       /* For visualization 
       background: #808080; width: 5px;
       */ }
+      @media screen and (min-width: 1080px) {
+        .img_grid_motorcycles ul li.parent:before {
+          margin-top: 30px; } }
     .img_grid_motorcycles ul li.parent a {
-      text-decoration: none; }
+      text-decoration: none;
+      text-align: center; }
       .img_grid_motorcycles ul li.parent a div.container {
         -webkit-transition: .25s;
         -moz-transition: .25s;
@@ -706,6 +708,19 @@ div.title_secondary {
           display: inline-block;
           color: white;
           padding-bottom: 0; }
+      .img_grid_motorcycles ul li.parent a div.dividebar {
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        border-radius: 2px;
+        width: 50px;
+        height: 2px;
+        background: #9e8f76;
+        display: block;
+        margin: 0 auto;
+        margin-top: 7px;
+        margin-bottom: 7px; }
       .img_grid_motorcycles ul li.parent a div.cover {
         -webkit-transition: .25s;
         -moz-transition: .25s;
@@ -717,7 +732,14 @@ div.title_secondary {
         bottom: 0;
         right: 0;
         left: 0;
-        z-index: -1; }
+        z-index: -1;
+        opacity: .5; }
+        @media screen and (min-width: 760px) {
+          .img_grid_motorcycles ul li.parent a div.cover {
+            opacity: .5; } }
+        @media screen and (min-width: 1080px) {
+          .img_grid_motorcycles ul li.parent a div.cover {
+            opacity: 1; } }
       .img_grid_motorcycles ul li.parent a div.under {
         -webkit-transition: .25s;
         -moz-transition: .25s;
@@ -731,10 +753,10 @@ div.title_secondary {
         left: 0;
         z-index: -5;
         background: #333333;
-        opacity: 0; }
+        opacity: 1; }
         @media screen and (min-width: 760px) {
           .img_grid_motorcycles ul li.parent a div.under {
-            opacity: 0; } }
+            opacity: 1; } }
         @media screen and (min-width: 1080px) {
           .img_grid_motorcycles ul li.parent a div.under {
             opacity: 1; } }
@@ -1725,6 +1747,9 @@ div.photo_chris {
   -ms-border-radius: 2px 0 0 0;
   -o-border-radius: 2px 0 0 0;
   border-radius: 2px 0 0 0; }
+  @media screen and (min-width: 760px) {
+    .cycle_pair .img_grid_double div:first-child {
+      margin-bottom: 3px; } }
 .cycle_pair .img_grid_double div:last-child {
   -webkit-border-radius: 0 2px 0 0;
   -moz-border-radius: 0 2px 0 0;
@@ -1746,7 +1771,7 @@ div.photo_chris {
       clear: both; }
     .cycle_pair .img_grid_double {
       float: left;
-      width: 40.031152647975%;
+      width: 58.411214953271%;
       margin-right: 1.557632398754%;
       padding-top: 0; }
       .cycle_pair .img_grid_double div {
@@ -1758,7 +1783,7 @@ div.photo_chris {
         width: 100%;
         margin: 0;
         margin-bottom: 0px;
-        height: 170px; }
+        height: 300px; }
         .cycle_pair .img_grid_double div:first-child {
           -webkit-border-radius: 2px 2px 0 0 !important;
           -moz-border-radius: 2px 2px 0 0 !important;
@@ -1778,7 +1803,7 @@ div.photo_chris {
       -o-border-radius: 2px 2px 2px 2px !important;
       border-radius: 2px 2px 2px 2px !important;
       float: left;
-      width: 58.411214953271%; } }
+      width: 40.031152647975%; } }
 @media screen and (min-width: 1080px) {
   .cycle_pair .img_grid_double {
     float: left;

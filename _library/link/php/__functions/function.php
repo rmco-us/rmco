@@ -305,15 +305,15 @@ function section_grid_motorcycles(){
 						$output = $output . '<div class="container">';
 							$output = $output . '<p class="title_year">'.$motorcycle['specs']['year'].'</p>';
 							$output = $output . '<h1 class="title_name">'.$motorcycle['motorcycle_nick'].'</h1>';
-							$output = $output . '<p style="color:white;">'.$motorcycle['specs']['price'].'</p>';
+							$output = $output . '<div class="dividebar"></div>';
+							if($motorcycle['specs']['price']!=="call for pricing"){
+								$output = $output . '<p style="color:white;">Starting at '.$motorcycle['specs']['price'].'</p>';
+								}else{
+								$output = $output . '<p style="color:white;">Call for pricing</p>';
+								}
 						$output = $output . '</div>';
 						$photo_count = 0;
-						foreach($motorcycle[images] as $photo => $description){
-							$photo_count = $photo_count + 1;
-							if($photo_count == 1){
-								$output = $output . '<div class="cover" style="background:url(_library/img/motorcycles/'.$photo.')center no-repeat;background-size:cover;"></div>';
-								}
-							}
+						$output = $output . '<div class="cover" style="background:url(_library/img/motorcycles/'.$motorcycle['cover'].')center no-repeat;background-size:cover;"></div>';
 						$output = $output . '<div class="under"></div>'; // this is the color of the hoverstate
 					$output = $output . '</a>';
 				$output = $output . '</li>';
@@ -466,7 +466,11 @@ function group_top_motorcycle($_section_primary_title){
 		$output = $output . '<div class="inner">';
 			foreach($array_motorcycles as $id => $motorcycle){
 				if($id == $match){
-					$output = $output . '<p>'.$motorcycle[description].'</p>';
+					if($motorcycle[description]!==""){
+						$output = $output . '<p>'.$motorcycle[description].'</p>';
+						}else{
+						$output = $output . "<p style='color:#999;'>Motorcycle description is on its way! Motorcycle specs are available below.</p>";
+						}
 					$output = $output . '<div class="cycle_pair">';
 						$output = $output . '<div class="img_grid_double" style="">';
 						$count = 0;
