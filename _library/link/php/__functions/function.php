@@ -638,7 +638,7 @@ function group_top_motorcycles($_section_primary_title){
 	$output = $output . '<div class="section" style="background:#f7f8f8;">';
 		$output = $output . '<div class="inner">';
 			$output = $output . '<div style="text-align:center;">';
-				$output = $output . section_primary_title("our motorcycles",'lineup');
+				$output = $output . section_primary_title("our motorcycle",'lineup');
 			$output = $output . '</div>';
 			$output = $output . '<h2>'.titlecase('One of a kind').'</h2>'; 
 			$output = $output . "<p>Each motorcycle contains a personal story. We're proud of understanding each motorcycle's past. We embrace its unique characteristics given by their previous owners. You will find more details by selecting a motorcycle below.</p>";
