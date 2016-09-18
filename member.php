@@ -8,7 +8,6 @@ $headtitle = 'member';//should be placed before loader
 
 <? 
 echo $_group_top_member;
-
 ?>
 
 <?
