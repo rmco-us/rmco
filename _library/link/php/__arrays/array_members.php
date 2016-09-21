@@ -187,7 +187,7 @@ $array_members['julius'] = array(
 		),
 	);
 $array_members['jeli'] = array(
-	'description' => "Hello there! My name is Anjelica and I go by 'Jeli' because 1) I love nicknames, 2) it's a natural icebreaker, and 3) people tend to mispronounce my name a lot! But if you got it, then more power to ya! I just started working at Rottweiler Motorcycle Company this past August and must say it's been quite an exhilarating rollercoaster thus far! Previously, I'd worked with college students and now I am interacting with the motorcycle community, ranging from seasoned riders to aspiring new riders. It is a unique and eye opening opportunity while I work in the front with Julius to make sure that your experience is the very best! Well, I hope you RIDE GREAT! ...That's what I always say! ",
+	'description' => "Hello there! My name is Anjelica and I go by 'Jeli' because 1) I love nicknames, 2) it's a natural icebreaker, and 3) people tend to mispronounce my name a lot! But if you got it, then more power to ya! I just started working at Rottweiler Motorcycle Company this past August and must say it's been quite an exhilarating rollercoaster thus far! Previously, I'd worked with college students and now I am interacting with the motorcycle community, ranging from seasoned riders to aspiring new riders. It is a unique and eye opening opportunity while I work in the front with Julius to make sure that your experience is the very best! Well, I hope you RIDE GREAT! ...That's what I always say!",
 	'name' => array(
 		'first' => 'anjelica',
 		'last' => 'roxas',
