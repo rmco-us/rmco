@@ -577,39 +577,43 @@ function group_top_member(){
 					// 	$output = $output . '<iframe src="https://player.vimeo.com/video/'.$member[video].'" frameborder="0" allowfullscreen></iframe>';
 					// $output = $output . '</div>';
 				$output = $output . '</div>'; //close content_left_side
-				$output = $output . '<div class="content_right_side" id="specs_non_mobile">';
-					$output = $output . '<div class="specs_photo" style="background:url(_library/img/motorcycles/'.$member[motorcycle].')center no-repeat;background-size:cover;"></div>';
-					$output = $output . '<div class="specs_container">';
-						$output = $output . '<p class="title">ride details</p>';
-						$output = $output . '<ul class="details">';
-							foreach($array_members as $id => $member){
-								if($match == $id){
+				foreach($array_members as $id => $member){
+					if($match == $id){
+						if($member[motorcycle]!=="none"){
+							$output = $output . '<div class="content_right_side" id="specs_non_mobile">';
+								$output = $output . '<div class="specs_photo" style="background:url(_library/img/motorcycles/'.$member[motorcycle].')center no-repeat;background-size:cover;"></div>';
+								$output = $output . '<div class="specs_container">';
+									$output = $output . '<p class="title">ride details</p>';
+									$output = $output . '<ul class="details">';
 									foreach($member[details] as $category => $detail){
 										$output = $output . '<li>';
 											$output = $output . '<p class="category">'.ucwords($category).'</p>';
 											$output = $output . '<p class="detail">'.ucwords($detail).'</p>';
 										$output = $output . '</li>';
 										}
-									}
-								}
-						$output = $output . '</ul>';
-					$output = $output . '</div>';
+									$output = $output . '</ul>';
+							}
+						}											
+					}
+				$output = $output . '</div>';
 				$output = $output . '</div>'; //close content_right_side
 			$output = $output . '</div>'; //close container_profile
 		$output = $output . '</div>'; //close inner
-		$output = $output . '<div class="section" id="specs_mobile" style="background:#312b29;">';
-			$output = $output . '<div class="container_profile">';
-				$output = $output . '<div class="content_right_side">';
-					$output = $output . '<div class="specs_container">';
-						$output = $output . '<p class="title">ride details</p>';
-						$output = $output . '<ul class="details">';
 							foreach($array_members as $id => $member){
 								if($match == $id){
-									foreach($member[details] as $category => $detail){
-										$output = $output . '<li>';
-											$output = $output . '<p class="category">'.ucwords($category).'</p>';
-											$output = $output . '<p class="detail">'.ucwords($detail).'</p>';
-										$output = $output . '</li>';
+									if($member[motorcycle]!=="none"){
+										$output = $output . '<div class="section" id="specs_mobile" style="background:#312b29;">';
+										$output = $output . '<div class="container_profile">';
+											$output = $output . '<div class="content_right_side">';
+												$output = $output . '<div class="specs_container">';
+													$output = $output . '<p class="title">ride details</p>';
+													$output = $output . '<ul class="details">';
+													foreach($member[details] as $category => $detail){
+														$output = $output . '<li>';
+															$output = $output . '<p class="category">'.ucwords($category).'</p>';
+															$output = $output . '<p class="detail">'.ucwords($detail).'</p>';
+														$output = $output . '</li>';
+														}
 										}
 									}
 								}
