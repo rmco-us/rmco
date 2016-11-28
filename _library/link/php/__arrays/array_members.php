@@ -186,6 +186,31 @@ $array_members['julius'] = array(
 		'twitter' => 'julius.melendres',
 		),
 	);
+$array_members['keith'] = array(
+	'description' => "My name is Keith Nichols. I was born and raised in the PNW. I have spent most of my life working in the automotive industry and have always had a passion for motorcycles. It has been a privilege getting to know the Rottweiler crew over the last couple of years and I am excited to now be apart of the Rottweiler Motorcycle family where passion and hard work drive everything we do.",
+	'name' => array(
+		'first' => 'keith',
+		'last' => 'nichols',
+		),
+	'position' => 'technician',
+	'motorcycle' => 'none',
+	'details' => array(
+		'year' => 1980,
+		'make' => 'harley davidson',
+		'model' => 'FXE',
+		),
+	'gif' => 'gif_keith.gif',
+	'still' => 'rmco-cover-2891.jpg', 
+	'video' => '162911217', 
+		// this should be an introduction of self. if value is not set, then don't display
+	'social' => array(
+		// 'vimeo' => '',
+		// 'snapchat' => '',
+		// 'instagram' => '',
+		'facebook' => 'keith.nichols.161',
+		// 'twitter' => '',
+		),
+	);
 $array_members['jeli'] = array(
 	'description' => "Hello there! My name is Anjelica and I go by 'Jeli' because 1) I love nicknames, 2) it's a natural icebreaker, and 3) people tend to mispronounce my name a lot! But if you got it, then more power to ya! I just started working at Rottweiler Motorcycle Company this past August and must say it's been quite an exhilarating rollercoaster thus far! Previously, I'd worked with college students and now I am interacting with the motorcycle community, ranging from seasoned riders to aspiring new riders. It is a unique and eye opening opportunity while I work in the front with Julius to make sure that your experience is the very best! Well, I hope you RIDE GREAT! ...That's what I always say!",
 	'name' => array(
@@ -210,54 +235,29 @@ $array_members['jeli'] = array(
 		'facebook' => 'anjelica.roxas.1',
 		),
 	);
-
-// $array_members['keith'] = array(
-// 	'description' => $loremipsum,
-// 	'name' => array(
-// 		'first' => 'keith',
-// 		'last' => 'nichols',
-// 		),
-// 	'position' => 'technician',
-// 	'motorcycle' => 'img_2453_1.jpg',
-// 	'details' => array(
-// 		'year' => 1980,
-// 		'make' => 'harley davidson',
-// 		'model' => 'FXE',
-// 		),
-// 	// 'gif' => 'gif_.gif',
-// 	'still' => 'rmco-cover-2601.jpg', 
-// 	'video' => '162911217', 
-// 		// this should be an introduction of self. if value is not set, then don't display
-// 	'social' => array(
-// 		// 'vimeo' => '',
-// 		// 'snapchat' => '',
-// 		// 'instagram' => '',
-// 		'facebook' => 'thomas.pike.18',
-// 		// 'twitter' => '',
-// 		),
-// 	);
-// $array_members['jeli'] = array(
-// 	'description' => $loremipsum,
-// 	'name' => array(
-// 		'first' => 'jeli',
-// 		'last' => 'roxas',
-// 		),
-// 	'position' => 'booking',
-// 	'motorcycle' => 'img_2453_1.jpg',
-// 	'details' => array(
-// 		'vehicle' => 'Scion',
-// 		'year' => 2012,
-// 		),
-// 	'still' => '12344443_23948234_n.jpg', 
-// 	'video' => '152640613', 
-// 		// this should be an introduction of self. if value is not set, then don't display
-// 	'social' => array(
-// 		'vimeo' => 'anjelica.roas.1',
-// 		'snapchat' => 'anjelica.roas.1',
-// 		'instagram' => 'anjelica.roas.1',
-// 		'facebook' => 'anjelica.roas.1',
-// 		'twitter' => 'anjelica.roas.1',
-// 		),
-// 	);
-
+$array_members['ronnie'] = array(
+	'description' => "Description coming soon...",
+	'name' => array(
+		'first' => 'ronnie',
+		'last' => 'quitugua',
+		),
+	'position' => 'technician',
+	'motorcycle' => 'none',
+	'details' => array(
+		'year' => 1980,
+		'make' => 'harley davidson',
+		'model' => 'FXE',
+		),
+	'gif' => 'gif_ronnie.gif',
+	'still' => 'rmco-cover-2888.jpg', 
+	'video' => '162911217', 
+		// this should be an introduction of self. if value is not set, then don't display
+	'social' => array(
+		// 'vimeo' => '',
+		// 'snapchat' => '',
+		// 'instagram' => '',
+		'facebook' => 'ronnie.j.quitugua',
+		// 'twitter' => '',
+		),
+	);
 ?>
