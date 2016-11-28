@@ -175,6 +175,7 @@ function section_nav_section(){
         $output = $output . '<div class="nav__toggle-btn"></div>';
         $output = $output . '<div class="section_nav_bottom">';
 	        $output = $output . '<p style="color:white;">Need to contact us?: <a href="mailto:info@rmco.us" style="text-decoration:none;color:white;">info@rmco.us</a></p>';
+	        $output = $output . '<p>(360) 373-6777</p>';
 	        $output = $output . '<p>282 Wilkes Ave, Bremerton, WA 98312</p>';
 			$output = $output . '<p>Hours of Operation: 9:00AM &ndash; 6:00PM</p>';
 		$output = $output . '</div>';
