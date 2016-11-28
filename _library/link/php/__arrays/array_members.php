@@ -136,31 +136,31 @@ $array_members['drew'] = array(
 		// 'twitter' => '',
 		),
 	);
-$array_members['tom'] = array(
-	'description' => "Hi, I'm Tom Pike, and I have been around motorcycles all my life. I started working at the local Honda Shop when I was 15. I am an ASE Master Technician. I had my own shop called Spikes Bikes until I got smart and started working at Rottweiler Motorcycle Company. I own a Shovelhead called the Nastyboy, and a FLHS called the Black Pearl. I truly am a motorcyclist for life.",
-	'name' => array(
-		'first' => 'tom',
-		'last' => 'pike',
-		),
-	'position' => 'master technician',
-	'motorcycle' => 'img_2453_1.jpg',
-	'details' => array(
-		'year' => 1980,
-		'make' => 'harley davidson',
-		'model' => 'FXE',
-		),
-	'gif' => 'gif_tom.gif',
-	'still' => 'rmco-cover-2601.jpg', 
-	'video' => '162911217', 
-		// this should be an introduction of self. if value is not set, then don't display
-	'social' => array(
-		// 'vimeo' => '',
-		// 'snapchat' => '',
-		// 'instagram' => '',
-		'facebook' => 'thomas.pike.18',
-		// 'twitter' => '',
-		),
-	);
+// $array_members['tom'] = array(
+// 	'description' => "Hi, I'm Tom Pike, and I have been around motorcycles all my life. I started working at the local Honda Shop when I was 15. I am an ASE Master Technician. I had my own shop called Spikes Bikes until I got smart and started working at Rottweiler Motorcycle Company. I own a Shovelhead called the Nastyboy, and a FLHS called the Black Pearl. I truly am a motorcyclist for life.",
+// 	'name' => array(
+// 		'first' => 'tom',
+// 		'last' => 'pike',
+// 		),
+// 	'position' => 'master technician',
+// 	'motorcycle' => 'img_2453_1.jpg',
+// 	'details' => array(
+// 		'year' => 1980,
+// 		'make' => 'harley davidson',
+// 		'model' => 'FXE',
+// 		),
+// 	'gif' => 'gif_tom.gif',
+// 	'still' => 'rmco-cover-2601.jpg', 
+// 	'video' => '162911217', 
+// 		// this should be an introduction of self. if value is not set, then don't display
+// 	'social' => array(
+// 		// 'vimeo' => '',
+// 		// 'snapchat' => '',
+// 		// 'instagram' => '',
+// 		'facebook' => 'thomas.pike.18',
+// 		// 'twitter' => '',
+// 		),
+// 	);
 $array_members['julius'] = array(
 	'description' => "Hey everybody! I'm Julius. I started out working with the Rottweiler team in July of 2013 and riding motorcycles shortly beforehand. We didn't have a specific title for me when I first started, but it seems like \"Customer Service Representative\" fits the bill. Family and motorcycles are two important aspects in my life. Luckily at this job, I'm able to be surrounded by both. About 99% of the time I'm swamped in: estimates, parts research, invoicing, etc. But every now and then, I meet a customer with a killer story (either motorcycle or life-related) and I'm beyond intrigued. Working in a company with so many great people, you learn that the greatest joy from this business comes not from the motorcycles, but from the people we are surrounded by. Thanks for your time and I hope to see you down at the shop.",
 	'name' => array(
@@ -241,7 +241,7 @@ $array_members['ronnie'] = array(
 		'first' => 'ronnie',
 		'last' => 'quitugua',
 		),
-	'position' => 'technician',
+	'position' => 'shop assistant',
 	'motorcycle' => 'none',
 	'details' => array(
 		'year' => 1980,
